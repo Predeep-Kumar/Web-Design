@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page | Edu.Connect</title>
+  <link rel="stylesheet" href="MAIN.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+ 
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="menu-toggle">&#9776;</div>
+      <div class="nav-container">
+        <a href="#" class="logo">Edu.<span>CONNECT</span></a>
+        <div class="navbar">
+          <ul class="nav-links">
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Services</a>
+              <div class="dropdown-content">
+                <a href="#">College Admissions Assistance</a>
+                <a href="#">Career Counseling</a>
+                <a href="#">Tutoring Services</a>
+                <a href="#">Scholarship and Financial Aid Guidance</a>
+                <a href="#">Educational Planning</a>
+              
+              </div>
+            </li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+          </ul>
+        </div>  
+        <div class="login-signup-btn">
+          <a href="LOGIN.HTML" class="btn btn-primary">Login/Signup</a>
+        </div>
+        
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="container">
+        <h1>Get Things Done with Edu.CONNECT</h1>
+        <p class="hero-subtitle">Find trusted consultant for all your service needs.</p>
+        <a href="booking.html" class="btn btn-primary">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Popular Services</h2>
+      <div class="service-card">
+        <img src="addmission.jpg" alt="Service 1">
+        <h3>College Admissions Assistance</h3>
+        <p>Help students prepare for college applications, including selecting suitable colleges, writing application essays, and preparing for standardized tests like the SAT or ACT..</p>
+      </div>
+      <div class="service-card">
+        <img src="consulting.jpg" alt="Service 2">
+        <h3>Career Counseling</h3>
+        <p>Provide career assessments and guidance to help individuals make informed decisions about their academic and career paths.</p>
+      </div>
+      <div class="service-card">
+        <img src="tutoring.jpg" alt="Service 3">
+        <h3>Tutoring Services</h3>
+        <p>Offer tutoring in various subjects and levels to help students improve their academic performance.</p>
+      </div>
+      <div class="service-card">
+        <img src="scholarship.jpg" alt="Service 4">
+        <h3>Scholarship and Financial Aid Guidance</h3>
+        <p>Assist students in finding scholarships, grants, and financial aid opportunities to fund their education.</p>
+      </div>
+      <div class="service-card">
+        <img src="education planning.jpg" alt="Service 5">
+        <h3>Educational Planning</h3>
+        <p> Help students and parents create a customized educational plan, including course selection, extracurricular activities, and long-term academic goals.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="step">
+        <img src="Service.jpg" alt="Step 1">
+        <h3>Step 1</h3>
+        <p>Select a service</p>
+      </div>
+      <div class="step">
+        <img src="PROFESSIONAL.jpg" alt="Step 2">
+        <h3>Step 2</h3>
+        <p>Choose a professional</p>
+      </div>
+      <div class="step">
+        <img src="GET IT DONE.jpg" alt="Step 3">
+        <h3>Step 3</h3>
+        <p>Get it done</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="slider">
+    <div class="slider-inner">
+      <img src="slider 1.jpg" alt="Slider Image 1">
+      <img src="slider2.jpg" alt="Slider Image 2">
+      <img src="slider3.jpg" alt="Slider Image 3">
+    </div>
+  </section>
+
+  <section class="contact-us" id="contact-us" >
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or inquiries, feel free to reach out to us using the contact information below:</p>
+      <ul>
+        <li>Email: info@educonnect.com</li>
+        <li>Phone: +1 (123) 456-7890</li>
+        <li>Address: 123 Street, City, Country</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Us Page -->
+  <section class="about-us" id="about-us">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>Edu.Connect is your trusted educational consulting partner. Our mission is to simplify your academic journey and empower you to achieve your educational aspirations. Whether you need guidance in college admissions, career counseling, tutoring, financial aid, or educational planning, our team of experts is here to support you every step of the way. Connect with Edu.Connect today, and together, we'll create a brighter future through the power of education..</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 _______________ . All rights reserved.</p>
+    </div>
+  </footer>
+
+ 
+  <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+    
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+  </script>
+</body>
+
+</html>
